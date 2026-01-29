@@ -1,0 +1,36 @@
+.contact-box {
+  width: 380px;          /* slightly bigger */
+  padding: 28px;
+}
+
+.contact-box h3 {
+  font-size: 24px;
+}
+
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.contact-box button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #00f5a0, #00d9f5);
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-box button:hover {
+  transform: scale(1.05);
+}

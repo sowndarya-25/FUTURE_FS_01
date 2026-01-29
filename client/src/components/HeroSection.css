@@ -1,0 +1,36 @@
+.hero-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+/* THIS FIXES THE DISAPPEARING TEXT */
+.hero-text {
+  position: absolute;
+  top: 120px;
+  left: 80px;
+  z-index: 10; /* 👈 CRITICAL */
+  color: #ffffff;
+  max-width: 600px;
+}
+
+.hi-text {
+  color: #1cff9c;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.hero-text .name {
+  color: #1cff9c;
+}
+
+.role {
+  font-size: 18px;
+  opacity: 0.9;
+}
